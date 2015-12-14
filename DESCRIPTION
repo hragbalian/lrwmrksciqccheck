@@ -1,0 +1,16 @@
+Package: qccheck
+Title: LRW Functions for Quality Control
+Version: 0.0.0.9000
+Authors@R: person("Hrag", "Balian", email = "hbalian@lrwonline.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends:
+    R (>= 3.2.1)
+License: What license is it under?
+LazyData: true
+Imports:
+   doParallel,
+   foreach,
+   network,
+   sna,
+   igraph
+RoxygenNote: 5.0.1
