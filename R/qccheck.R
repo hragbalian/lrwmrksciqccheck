@@ -142,12 +142,12 @@ check_similarity<-function(Data,Condition1VarInData=NULL,Condition2VarInData=NUL
 #' 
 #' @description
 #' \code{check_similarity} flags respondents whose response patterns
-#' deviate too far from expected patterns. 
+#' deviate too far from expected (highly correlated) patterns. 
 #' 
 #' @param Data A dataframe, ideally no more than 3000 columns (otherwise)
 #' the algorithm will take a really long time to run
 #' 
-#' @param CorrelationThreshold A numeric, ca
+#' @param CorrelationThreshold A numeric, the correlation threshold
 #'
 #' @param ZThreshold A numeric, the location in the similarity distribution
 #' to flag respondents as being suspiciously similar (a z-score)
